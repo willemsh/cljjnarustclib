@@ -1,0 +1,15 @@
+[package]
+name = "cljjnarustclib"
+version = "0.1.0"
+authors = ["Guillermo Martín Gómez <willemsh@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.cljjnarustlib]
+path = "../cljjnarustlib"
+
+[lib]
+crate_type = ["cdylib"]
